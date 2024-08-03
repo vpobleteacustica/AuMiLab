@@ -1,18 +1,16 @@
 # Laboratorio de Minería de Audio y Datos - AuMiLab
-El objetivo general de AuMiLab es explorar datos extraídos de múltiples contextos basados en procesamiento digital de señales, principalmente, audio e imágenes.
+El objetivo general de AuMiLab es explorar datos extraídos de múltiples contextos basados en procesamiento digital de señales, principalmente, acústica, audio, vibraciones e imágenes.
 
 ## Resumen
-Diseñamos soluciones desde el marco de la estadística, el reconocimiento de patrones, el aprendizaje de máquinas y la ciencia de datos. 
+En [AuMiLab](http://aumilab.cl)  diseñamos soluciones desde el marco de la estadística, el reconocimiento de patrones, el aprendizaje de máquinas y la ciencia de datos. 
 Valoramos la investigación abierta, colaborativa y reproducible con enfoque interdisciplinar y en beneficio de la sociedad, el medio ambiente y las ciencias básicas.
-Nuestros objetivos específicos son: 
-$$\begin{itemize}[leftmargin=*]
-\setlength\itemsep{0.01em}
-\item Reforzar y aumentar la colaboración en materia de investigación entre estudiantes, docentes y profesionales, apoyando los estudios interfacultades dentro de la UACh con soluciones basadas en ciencia de datos.
-\item Fortalecer la formación académica de los estudiantes de la UACh en materia de entendimiento y aplicabilidad de ciencia de datos.
-\item Fortalecer la posición de vanguardia de la Facultad de Ciencias de la Ingeniería de la UACh en el área acústica mediante investigaciones y desarrollos basados en ciencia de datos.
-\end{itemize}$$
 
+## Nuestros objetivos específicos son: 
 
+- Reforzar y aumentar la colaboración en materia de investigación entre estudiantes, docentes y profesionales.
+- Apoyar los estudios interfacultades dentro de la UACh con soluciones basadas en ciencia de datos y aprendizaje de máquina.
+- Difundir y fortalecer el aprendizaje y la formación académica de los estudiantes de la UACh en materia de entendimiento y aplicabilidad de datos de acústica, audio, vibraciones e imágenes.
+- Fortalecer la posición de vanguardia de la Facultad de Ciencias de la Ingeniería de la UACh en el área acústica mediante investigaciones y desarrollos basados en ciencia de datos y aprendizaje de máquina.
 
 ## Resumen de la sesión 
 
