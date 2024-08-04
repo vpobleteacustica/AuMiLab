@@ -1,0 +1,520 @@
+
+<!DOCTYPE html>
+
+
+<html lang="es" data-content_root="../../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>1. Principales actividades &#8212; Laboratorio de Minería de Audio y Datos</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b76e3c8a" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=87e54e7c" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="../../_static/documentation_options.js?v=78d55cf8"></script>
+    <script src="../../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../../_static/copybutton.js?v=f281be69"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script src="../../_static/translations.js?v=efdbd0b9"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'contenidos/unidad1/clase1';</script>
+    <link rel="index" title="Índice" href="../../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../../search.html" />
+    <link rel="next" title="2. Interdisciplinas" href="clase2.html" />
+    <link rel="prev" title="Laboratorio de Minería de Audio y Datos - AuMiLab" href="../../README.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="es"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Saltar al contenido principal</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Volver arriba</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Advertencia de versión"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../../README.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../_static/logo.png" class="logo__image only-light" alt="Laboratorio de Minería de Audio y Datos - Home"/>
+    <script>document.write(`<img src="../../_static/logo.png" class="logo__image only-dark" alt="Laboratorio de Minería de Audio y Datos - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Búsqueda" aria-label="Búsqueda" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Búsqueda</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../../README.html">
+                    Laboratorio de Minería de Audio y Datos - AuMiLab
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Presentación de AuMiLab</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">1. Principales actividades</a></li>
+<li class="toctree-l1"><a class="reference internal" href="clase2.html">2. Interdisciplinas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="clase3.html">3. Resultados Esperados</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Descarga esta pagina">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../_sources/contenidos/unidad1/clase1.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Descargar archivo fuente"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Imprimir en PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Modo de pantalla completa"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="claro/oscuro" aria-label="claro/oscuro" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Búsqueda" aria-label="Búsqueda" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Principales actividades</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contenido </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#colaboracion-en-tesis-de-contextos-diversos">1.1. Colaboración en tesis de contextos diversos:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#actualmente-colaborando">1.2. Actualmente colaborando:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#trabajo-previo">1.3. Trabajo previo</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="principales-actividades">
+<h1><span class="section-number">1. </span>Principales actividades<a class="headerlink" href="#principales-actividades" title="Link to this heading">#</a></h1>
+<p>Nuestro quehacer está enfocado a brindar soluciones a problemas que requieran exploración de datos. El ámbito de nuestros servicios no se restringe a la ingeniería, más bien, nuestro anhelo es también contribuir con soluciones en áreas como medicina, ciencias, psicología, ciencias sociales, ciencias de la rehabilitación, entre otras. Las principales actividades del AuMiLab serán:</p>
+<ul class="simple">
+<li><p>Desarrollar investigación sobre la ciencia de datos y sus aplicaciones para el procesamiento de imágenes, texto, audio, video y otro tipo de señales.</p></li>
+<li><p>Postular a proyectos con financiamiento interno y externo junto a estudiantes, docentes y profesionales que estén interesados en desarrollos en torno a la aplicación de ciencia de datos. %Actualmente hemos postulado a dos proyectos:</p></li>
+<li><p>Ofrecer proyectos de tesis para alumnos de pre y posgrado, prácticas profesionales y diversas asignaturas optativas en pre y posgrado relacionadas con ciencia de datos, procesamiento de señales y aprendizaje automático.</p></li>
+<li><p>Realizar charlas, talleres y seminarios a la comunidad UACh y a otras entidades sociales, escolares, industriales y gubernamentales de la Región de los Ríos, con el objetivo de difundir el quehacer del laboratorio y favorecer la generación de redes de colaboración.</p></li>
+</ul>
+<section id="colaboracion-en-tesis-de-contextos-diversos">
+<h2><span class="section-number">1.1. </span>Colaboración en tesis de contextos diversos:<a class="headerlink" href="#colaboracion-en-tesis-de-contextos-diversos" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Estudio comparativo del impacto del ruido submarino sobre mamíferos marinos chilenos, empleando los criterios de evaluación existentes. Tesis para Ingeniería Civil Acústica. Alumno Esteban Gallardo.</p></li>
+<li><p>Exploring Haptic Perception Data Using Signal Processing and Unsupervised Algorithms. Tesis para Ingenieria Civil Acústica. Alumno Robin Urrutia.</p></li>
+<li><p>NeRF + Evertims: Complementos para la Investigación y Simulación de Espacios Acústicos. Tesis para Ingenieria Civil Acústica. Alumno Hakim Martinez.</p></li>
+<li><p>Short-Time Acoustic Indices for monitoring urban wetlands using artificial neural networks. Tesis para Magister en Informática. Alumno Diego Espejo.</p></li>
+<li><p>Estudio sistemático del registro del terremoto de Valdivia de 1960 en anillos de crecimiento de <em>Fitzroya cupressoides</em>. Tesis para Geología. Alumno Joaquín Morales.</p></li>
+</ul>
+</section>
+<section id="actualmente-colaborando">
+<h2><span class="section-number">1.2. </span>Actualmente colaborando:<a class="headerlink" href="#actualmente-colaborando" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Análisis y detección de tejidos usando sensores vibroacústicos. Investigación en conjunto con Instituto de Anatomía, Histología y Patología UACh y empresa alemana SURAG Medical GmbH.</p></li>
+<li><p>Análisis de parámetros acústicos de la producción de voz en personas con ideación suicida. Tesis para Ingeniería Civil Acústica. Alumno Rafael Hayde.</p></li>
+<li><p>Análisis y caracterización de señales inerciales para la predicción de caídas en adultos mayores. Tesis para Ingeniería Civil Acústica. Alumna Daniela Narváez.</p></li>
+<li><p>Algoritmo para estimación de la deformación de redes flexibles a partir de métodos acústicos. Tesis para Ingeniería Civil Acústica. Alumno Mauricio Acevedo.</p></li>
+<li><p>Aplicación inteligencia artificial para caracterización de humedales, caso Talagante. Tesis para Ingeniería Civil Acústica. Alumno Leandro Aguilar.</p></li>
+<li><p>Buscando una estrategia para reducir la incidencia de márgenes positivos en cirugía oncológica. Caracterización de tejidos histológicos mediante un sensor vibro-acústico. Tesis para Tecnología Médica. Alumna Natalia Evens.</p></li>
+</ul>
+</section>
+<section id="trabajo-previo">
+<h2><span class="section-number">1.3. </span>Trabajo previo<a class="headerlink" href="#trabajo-previo" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Participación en congreso ICMC2020/21:  Espejo, D.; Poblete V.; Huijse P.; Otondo, F. High-Performance Tools to Generate and Visualize a Sonic Time-Lapse. In Proceedings of the 2021 International Computer Music Conference, Santiago, Chile. 2021.</p></li>
+<li><p>Participación en congreso FIA2020/22: Espejo, D.; Gallardo, E.; Martínez, H.; Morales, G.; Peñailillo, R.; Sandoval C.; Poblete V.  Collaborative labeling protocol for polyphonic audio recordings from urban wetlands. In Proceedings of the XII Congreso Iberoamericano de Acústica, Florianopolis, Brasil. 2022.</p></li>
+<li><p>Poblete, V.; Espejo, D.; Vargas, V.; Otondo, F.; Huijse, P. Characterization of Sonic Events Present in Natural-Urban Hybrid Habitats Using UMAP and SEDnet: The Case of the Urban Wetlands. Appl. Sci. 2021, 11, 8175. <a class="reference external" href="https://doi.org/10.3390/app11178175">https://doi.org/10.3390/app11178175</a></p></li>
+<li><p>Morales, G.; Vargas, V.; Espejo, D.; Poblete, V.; Tomasevic, J. A.; Otondo, F.; Navedo, J. G.  Method for passive acoustic monitoring of bird communities using UMAP and a deep neural network. Ecological Informatics. 2022, 72, 101909. <a class="reference external" href="https://doi.org/10.1016/j.ecoinf.2022.101909">https://doi.org/10.1016/j.ecoinf.2022.101909</a></p></li>
+<li><p>Sühn, T.; Esmaeili, N.; Mattepu, S.Y.; Spiller, M.; Boese, A.; Urrutia, R.; Poblete, V.; Hansen, C.; Lohmann, C.H.; Illanes, A.; Friebe, M. Vibro-Acoustic Sensing of Instrument Interactions as a Potential Source of Texture-Related Information in Robotic Palpation. Sensors 2023, 23, 3141. <a class="reference external" href="https://doi.org/10.3390/s23063141">https://doi.org/10.3390/s23063141</a></p></li>
+<li><p>Participación en FONDECYT 1190722 “Método de time-lapse sonoro para la puesta en valor del patrimonio sonoro de humedales urbanos”.</p></li>
+<li><p>Participación en FONDEF ID20I10212 «Automatic detection and classification of seismological events using advanced machine learning methods».</p></li>
+<li><p>Participación en FONDEF ID20I10333 “Sistema integrado de análisis de Fuentes Sonoras Ambientales: Sistema FuSA” .</p></li>
+<li><p>ANID FOVI220062 “Medical interventional device and acoustic tissue characterization with multiple clinical potentialities.”.</p></li>
+<li><p>Urrutia, R.; Espejo, D.; Evens, N.; Guerra, M.; Sühn, T.; Boese, A.; Hansen, C.; Fuentealba, P.; Illanes, A.; Poblete, V. (2023). Clustering Methods for Vibro-Acoustic Sensing Features as a Potential Approach to Tissue Characterisation in Robot-Assisted Interventions. Sensors, 23(23), 9297. <a class="reference external" href="https://doi.org/10.3390/s23239297">https://doi.org/10.3390/s23239297</a></p></li>
+<li><p>Espejo, D.; Vargas, V.; Viveros-Muñoz, R.; Labra, F. A.; Huijse, P.; Poblete, V. (2024). Short-time acoustic indices for monitoring urban-natural environments using artificial neural networks. Ecological Indicators, 160, 111775. <a class="reference external" href="https://doi.org/10.1016/j.ecolind.2024.111775">https://doi.org/10.1016/j.ecolind.2024.111775</a></p></li>
+<li><p>Morales, J.; Saldivia, C.;  Carrasco, M.;Poblete, V. (2023). Geochemical Data Clustering Using UMAP: A Comparative Study on the Rapel River Fluvial System. 2023 IEEE CHILEAN Conference on Electrical, Electronics Engineering, Information and Communication Technologies (CHILECON), Valdivia, Chile, pp. 1-4. <a class="reference external" href="https://doi.org/10.1109/CHILECON60335.2023.10418654">https://doi.org/10.1109/CHILECON60335.2023.10418654</a>.</p></li>
+</ul>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./contenidos/unidad1"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="../../README.html"
+       title="página anterior">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">anterior</p>
+        <p class="prev-next-title">Laboratorio de Minería de Audio y Datos - AuMiLab</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="clase2.html"
+       title="siguiente página">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">siguiente</p>
+        <p class="prev-next-title"><span class="section-number">2. </span>Interdisciplinas</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contenido
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#colaboracion-en-tesis-de-contextos-diversos">1.1. Colaboración en tesis de contextos diversos:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#actualmente-colaborando">1.2. Actualmente colaborando:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#trabajo-previo">1.3. Trabajo previo</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+Por Víctor Poblete Ramírez
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2024.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
