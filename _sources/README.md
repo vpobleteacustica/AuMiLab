@@ -1,4 +1,4 @@
-# Laboratorio de Minería de Audio y Datos - AuMiLab
+# Ingeniería acústica en colaboración interdisciplinaria - AuMiLab
 El objetivo general de AuMiLab es explorar datos extraídos de múltiples contextos basados en procesamiento digital de señales, principalmente, acústica, audio, vibraciones e imágenes.
 
 <img src="/contenidos/figuras/AuMiLab_Logo.png" width="200" height="200">
