@@ -2,7 +2,7 @@
 
 El objetivo general de AuMiLab es explorar señales y datos, extraídas de múltiples contextos, científicos y de ingeniería, basándonos en los fundamentos de: 1) procesamiento digital de señales - principalmente, acústica, audio, vibraciones e imágenes; 2) herramientas de programación; 3) procesamiento y análisis de datos; y 4) aprendizaje de máquina.
 
-<img src="https://github.com/vpobleteacustica/AuMiLab/blob/main/AuMiLab_Logo.png" width="200" height="200">
+<img src="https://github.com/vpobleteacustica/AuMiLab/blob/main/AuMiLab_Logo.png" width="100" height="100">
 
 ## Resumen
 
