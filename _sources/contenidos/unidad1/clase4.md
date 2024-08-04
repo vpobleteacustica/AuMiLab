@@ -13,7 +13,7 @@ Responding to Editor/Reviewers:
 Diego Espejo, Robin Urrutia, Rafael Hayde, Joaquín Morales, Víctor Poblete. "WetSound Database: Strongly Labeled Passive Soundscape Recordings & Phenological Variables."
 
 - Paper in preparation to Scientific Reports Journal:
-Joaquín, Morales; Víctor Poblete; Camila Saldivia; Max del Pino. "Deep Learning Explainability Methods Applied to Mineral Semantic Segmentation".
+Joaquín, Morales; Camila Saldivia; Max del Pino; Rafael Hayde; Víctor Poblete. "Deep Learning Explainability Methods Applied to Mineral Semantic Segmentation".
 
 
 
