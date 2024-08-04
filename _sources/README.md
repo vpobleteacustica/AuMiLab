@@ -1,6 +1,6 @@
 # Ingeniería acústica en colaboración interdisciplinaria - AuMiLab
 
-El objetivo general de AuMiLab es explorar señales y datos, extraídas de múltiples contextos, científicos y de ingeniería, basándonos en fundamentos de a) procesamiento digital de señales - principalmente, acústica, audio, vibraciones e imágenes, b) herramientas de programación, c) análisis de datos y d) de aprendizaje de máquina.
+El objetivo general de AuMiLab es explorar señales y datos, extraídas de múltiples contextos, científicos y de ingeniería, basándonos en los fundamentos de: 1) procesamiento digital de señales - principalmente, acústica, audio, vibraciones e imágenes; 2) herramientas de programación; 3) procesamiento y análisis de datos; y 4) aprendizaje de máquina.
 
 <img src="/contenidos/figuras/AuMiLab_Logo.png" width="200" height="200">
 
